@@ -1,0 +1,54 @@
+.about {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    width: 50rem;
+    height: 25rem;
+    background-color: #222;
+    color: white;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.about__image {
+    width: 13rem;
+    object-position: right;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.about__infos {
+    line-height: 1.5;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.about__description {
+    margin-block: auto;
+}
+
+.about__contact {
+    margin-top: auto;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.about__contact:hover {
+    color: white;
+    background-color: darkmagenta;
+    border-color: darkmagenta;
+}
+
+#myImage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    height: 80%;
+    box-shadow: 0 0 1rem 50vw rgba(0,0,0,0.5);
+    border: 5px solid black;
+}
