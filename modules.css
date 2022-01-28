@@ -1,0 +1,32 @@
+.modules {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 20rem;
+}
+
+.modules__card {
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem var(--prefer-dark);
+    background-color: var(--prefer-dark);
+}
+
+.modules__name {
+    height: 5rem;
+    text-align: center;
+    color: white;
+}
+
+.button {
+    padding-block: 1em;
+    cursor: pointer;
+}
